@@ -4,7 +4,7 @@ import os
 from concurrent.futures import ThreadPoolExecutor
 
 df = pd.read_csv(os.path.join(os.path.dirname(__file__), 'threedod', '3dod_train_val_splits.csv'))
-outDir = '/tmp'
+outDir = '/Volumes/WD/ARKitScenes'
 dataType = '3dod'
 raw_dataset_assets = ['mov', 'annotation', 'mesh', 'confidence', 'lowres_depth',
                  'lowres_wide.traj', 'lowres_wide', 'lowres_wide_intrinsics', 'ultrawide',
